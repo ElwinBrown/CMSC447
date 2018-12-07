@@ -1,0 +1,15 @@
+﻿body {
+  /* Uncomment this to enable scrolling and zooming
+  touch-action: manipulation;
+  */
+}
+
+#search {
+	position: fixed;
+	left: 10px;
+	right: 150px;
+}
+
+#postView {
+	
+}

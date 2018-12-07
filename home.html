@@ -1,9 +1,22 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <link href="home.css" rel="stylesheet" />
 </head>
 <body>
-    <div>Content goes here.</div>
+    <h1>PolitiForum</h1>
+	<form id="search">
+		<input type="text" id="searchText">
+		<button id="searchButton">search</button>
+	</form>
+	<div id="postView">
+		<p id="user">userName</p> <!-- TODO: fill with actual username -->
+		<button id="upVote">UpVote</button>
+		<button id="downVote">DownVote</button>
+		<button id="report">Report</button><br>
+		<textarea>post content</textarea>
+	</div>
 </body>
 </html>

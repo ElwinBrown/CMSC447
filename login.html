@@ -3,13 +3,19 @@
 <head>
     <meta charset="utf-8" />
     <title>Login</title>
-    <link href="css/default.css" rel="stylesheet" />
+    <link href="login.css" rel="stylesheet" />
 </head>
 <body>
     <h1>PolitiForum</h1>
     <h2>Login</h2>
-    <p>Email:<input type="text" name="email" /></p>
-    <p>Password:<input type="text" name="password"/></p>
+    <form id="login">
+	Email:<input type="text" id="email" /><br>
+    Password:<input type="text" id="password" /><br>
+	<button id="submit">submit</button>
+	</form>
+	<p> new user? </p>
+	<a href="registration.html"><button id="register">register</button></a><br>
+	<a href="loginAdmin.html"><button id="loginAdmin">login as administrator</button></a>
 
     <script>
         var email = document.querySelector("email");
